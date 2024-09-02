@@ -15,7 +15,7 @@ const GridView = ({ data, onTileClick }) => {
           className="rounded-full w-20"
         />
         <div className="font-bold m-2 mt-2 text-base text-white text-center">{`${user.name.first} ${user.name.last}`}</div>
-        <div className='text-xs text-gray-400 mb-2 text-center'>{`${user.location.city}, ${user.location.country}`}
+        <div className='text-[13px] text-gray-400 text-center'>{`${user.location.city}, ${user.location.country}`}
         </div>
         </div> 
         
